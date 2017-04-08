@@ -73,6 +73,7 @@ function sendMessage(senderId, message) {
 
 
 function addPersistentMenu() {
+  console.log("TA DA GOI MENU");
   request({
       url:'https://graph.facebook.com/v2.6/me/messenger_profile',
       qs: {
@@ -126,5 +127,5 @@ function addPersistentMenu() {
 app.set('port', process.env.PORT || 3002);
 
 server.listen(app.get('port'), function() {
-  console.log("Chat bot server listening at");
+  console.log("TAO DA SU DOI ");
 });
