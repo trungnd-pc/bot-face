@@ -75,5 +75,5 @@ function sendMessage(senderId, message) {
 app.set('port', process.env.PORT || 3002);
 
 server.listen(app.get('port'), function() {
-  console.log("Chat bot server listening at %s:%d ", app.get('ip'), app.get('port'));
+  console.log("Chat bot server listening at");
 });
